@@ -48,7 +48,39 @@
         <joint name="${prefix}wrist_3_joint"         value="-3.141" />
     </group_state>
 
-    <group_state name="${prefix}eob_calib_scan_position" group="${prefix}${name}_manipulator">
+    <group_state name="${prefix}eob_calib_scan_position1" group="${prefix}${name}_manipulator">
+        <joint name="${prefix}shoulder_pan_joint"    value="-1.29" />
+        <joint name="${prefix}shoulder_lift_joint"   value="-2.356" />
+        <joint name="${prefix}elbow_joint"           value="-0.139" />
+        <joint name="${prefix}wrist_1_joint"         value="-1.884" />
+        <joint name="${prefix}wrist_2_joint"         value="1.274" />
+        <joint name="${prefix}wrist_3_joint"         value="3.089" />
+    </group_state>
+    <group_state name="${prefix}eob_calib_scan_position2" group="${prefix}${name}_manipulator">
+        <joint name="${prefix}shoulder_pan_joint"    value="-1.29" />
+        <joint name="${prefix}shoulder_lift_joint"   value="-2.356" />
+        <joint name="${prefix}elbow_joint"           value="-0.139" />
+        <joint name="${prefix}wrist_1_joint"         value="-1.884" />
+        <joint name="${prefix}wrist_2_joint"         value="1.274" />
+        <joint name="${prefix}wrist_3_joint"         value="3.089" />
+    </group_state>
+    <group_state name="${prefix}eob_calib_scan_position3" group="${prefix}${name}_manipulator">
+        <joint name="${prefix}shoulder_pan_joint"    value="-1.29" />
+        <joint name="${prefix}shoulder_lift_joint"   value="-2.356" />
+        <joint name="${prefix}elbow_joint"           value="-0.139" />
+        <joint name="${prefix}wrist_1_joint"         value="-1.884" />
+        <joint name="${prefix}wrist_2_joint"         value="1.274" />
+        <joint name="${prefix}wrist_3_joint"         value="3.089" />
+    </group_state>
+    <group_state name="${prefix}eob_calib_scan_position4" group="${prefix}${name}_manipulator">
+        <joint name="${prefix}shoulder_pan_joint"    value="-1.29" />
+        <joint name="${prefix}shoulder_lift_joint"   value="-2.356" />
+        <joint name="${prefix}elbow_joint"           value="-0.139" />
+        <joint name="${prefix}wrist_1_joint"         value="-1.884" />
+        <joint name="${prefix}wrist_2_joint"         value="1.274" />
+        <joint name="${prefix}wrist_3_joint"         value="3.089" />
+    </group_state>
+    <group_state name="${prefix}eob_calib_scan_position5" group="${prefix}${name}_manipulator">
         <joint name="${prefix}shoulder_pan_joint"    value="-1.29" />
         <joint name="${prefix}shoulder_lift_joint"   value="-2.356" />
         <joint name="${prefix}elbow_joint"           value="-0.139" />
